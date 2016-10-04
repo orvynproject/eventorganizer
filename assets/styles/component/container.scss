@@ -1,0 +1,81 @@
+body, html {
+	font-family: $font-primary;
+}
+a {
+	color: $color-lamp;
+	&:focus,
+	&:hover {
+		text-decoration: none;
+		color: $color-lamp-hover;
+	}
+}
+.btn-primary {
+	background-color: $color-lamp;
+	border: 1px solid $color-lamp;
+	&:focus,
+	&:hover {
+		background-color: $color-lamp-hover;
+		border: 1px solid $color-lamp-hover;
+	}
+}
+.article > article {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#home .row #content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.events {
+	a.thumb {
+		display: block;
+		width: 100%; 
+		height: 300px; 
+		background-position: center; 
+		background-size: cover;
+	}
+}
+.news {
+	.thumb {
+		display: block;
+		width: 100%; 
+		height: 130px; 
+		background-position: center; 
+		background-size: cover;
+	}
+	p.title {
+		font-weight: bold;
+	}
+}
+.socialmedia {
+	p > span > a {
+		letter-spacing: 10px;
+	}
+}
+.bg-inner {
+	background-color: $bg-inner;
+	.page-header {
+		border-bottom: 1px solid $hr-inner;
+	}
+	hr.hr-inner {
+		border-top: 1px solid $hr-inner;
+	}
+}
+.pagination {
+	li > a {
+		color: $color-lamp;
+		&:focus,
+		&:hover {
+			color: $color-lamp-hover;
+		}
+	}
+	.active > a {
+		background-color: $color-lamp;
+		border-color: $color-lamp;
+		&:focus,
+		&:hover {
+			background-color: $color-lamp-hover;
+			border-color: $color-lamp;
+		}
+	}
+}

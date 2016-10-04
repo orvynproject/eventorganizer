@@ -1,0 +1,15 @@
+nav.navbar {
+	background: $bg-dark;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0 5px 100px $color-lamp;
+	.navbar-toggle {
+		&:focus,
+		&:hover {
+			background: none;
+		}
+	}
+}
